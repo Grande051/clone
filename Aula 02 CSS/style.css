@@ -37,16 +37,210 @@ header {
     );
     color: var(--cor-branca);
     padding: 50px 20px;
+    text-align: center;
+    box-shadow:0 4px 18px rgba(0, 0, 0,0.18);
 }
-alwidfgkbD´S~JF ASDF
-ASDF
-ASD
-feFuncASDF
-ASD
-feFuncASDF
-ASDF
-ASD
-feBlendASDF
-ASD
-feFuncASDF
-ASDF
+
+header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-branca);
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255,0.35);
+    border-radius: 999px;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
+
+nav a:hover {
+    background-color: var(--cor-branca);
+    color: var(--cor-primaria);
+    transform: translateY(-2px);
+}
+
+main {
+    max-width: var(--largura-maxima);
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: var(--cor-branca);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra-padrao);
+    border: 1px solid rgba(0, 0, 0,0.04)
+}
+
+section h2 {
+    color: var(--cor-primaria);
+    font-size: 1.7rem;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+#sobre img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 3px solid #e5e7eb;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.12)
+
+}
+
+#sobre p {
+    max-width: 800px;
+    color: var(--cor-texto);
+}
+
+#habilidade ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 12px;
+}
+
+#habilidade li {
+    background-color:  #eff6ff;
+    color: var(--cor-primaria-escura);
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    border-left: 4px solid var(--cor-destaque)
+}
+
+article {
+    background-color: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1pxsolid #e5e7eb;
+}
+
+article h3 {
+    color: var(--cor-primaria-escura);
+    margin-bottom: 8px;
+}
+
+article p {
+    color: var(--cor-texto-suave
+    )
+}
+
+#tabela-experiencias table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: none;
+}
+
+#tabela-experiencias thead {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+}
+
+#tabela-experiencias th,
+#tabela-experiencias td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+#tabela-experiencias th {
+    font-weight: 700;
+}
+
+#tabela-experiencias tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+#tabela-experiencias tbody tr:hover {
+    background: #eaf2ff;
+    transition: background-color 0.2s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#cadastro form p {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label{
+    font-eight: 600;
+    color: var(--cor-texto);
+
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: var(--cor-branca);
+    color: var(--cor-texto);
+    transition: order-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--cor-destaque);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16);
+}
+
+button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: 03s ease;
+}
+
+button:hover {
+    background-color: var(--cor-primaria-escura);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(15, 43, 95,0.22);
+} 
+
+button:active {
+    transform: translateY(0);
+}

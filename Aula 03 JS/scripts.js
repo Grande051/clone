@@ -1,11 +1,3 @@
-/*
-============================================================
-INTRODUÇÃO AO JAVASCRIPT PELO CONSOLE
-============================================================
-Abra o navegador, pressione F12 e escolha a aba "Console".
-Digite os comandos aos poucos e observe o resultado.
-*/
-
 // console.log() mostra uma informação no Console.
 console.log("Olá mundo!");
 

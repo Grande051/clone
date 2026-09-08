@@ -12,7 +12,7 @@ O foco da atividade não será apenas entregar um site funcionando. Cada integra
 
 ## 📅 Data de entrega
 
-**18/09/2026**
+**15/09/2026**
 
 O projeto deverá estar concluído e pronto para apresentação nesta data.
 
@@ -253,7 +253,7 @@ A turma foi dividida em **10 grupos**, totalizando **41 alunos**. Nove grupos po
 | Code Review | Obrigatório |
 | Uso de IA para escrever código | **PROIBIDO** |
 | Penalidade por código de IA | **NOTA ZERO** |
-| Data de entrega | **18/09/2026** |
+| Data de entrega | **15/09/2026** |
 
 ---
 
